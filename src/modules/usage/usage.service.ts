@@ -1,6 +1,6 @@
-import AppError from "../../shared/errorHandler/AppError";
-import { UsageRepository } from "./usage.repository";
-import { CreateUsageDto } from "./usage.validation";
+import AppError from "../../shared/errorHandler/AppError.js";
+import { UsageRepository } from "./usage.repository.js";
+import { CreateUsageDto } from "./usage.validation.js";
 
 export class UsageService {
     private usageRepository = new UsageRepository();

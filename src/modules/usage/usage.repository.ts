@@ -1,5 +1,5 @@
-import { pool } from "../../config/database.config";
-import { CreateUsageDto } from "./usage.validation";
+import { pool } from "../../config/database.config.js";
+import { CreateUsageDto } from "./usage.validation.js";
 
 export class UsageRepository {
 

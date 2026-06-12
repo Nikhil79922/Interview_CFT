@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import { UsageService } from "./usage.service";
-import { createUsageSchema,userIdParamSchema } from "./usage.validation";
-import { sendResponse } from "../../shared/constants/successRes";
-import { TryCatch } from "../../shared/constants/tryCatch";
+import { UsageService } from "./usage.service.js";
+import { createUsageSchema,userIdParamSchema } from "./usage.validation.js";
+import { sendResponse } from "../../shared/constants/successRes.js";
+import { TryCatch } from "../../shared/constants/tryCatch.js";
 
 export class UsageController {
 

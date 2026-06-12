@@ -1,10 +1,10 @@
-import { env } from './config/env'
-import app from './app'
-import { UserModel } from './infra/database/model/users'
-import { PlanModel } from './infra/database/model/plans'
-import { SubscriptionModel } from './infra/database/model/subscription'
-import { UsageRecordsModel } from './infra/database/model/usageRecords'
-import { pool } from './config/database.config'
+import { env } from './config/env.js'
+import app from './app.js'
+import { UserModel } from './infra/database/model/users.js'
+import { PlanModel } from './infra/database/model/plans.js'
+import { SubscriptionModel } from './infra/database/model/subscription.js'
+import { UsageRecordsModel } from './infra/database/model/usageRecords.js'
+import { pool } from './config/database.config.js'
 
 const port = env.PORT
 
